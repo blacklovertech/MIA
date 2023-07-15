@@ -1,67 +1,56 @@
+# Contributing
 
-# Contributing to MIA (Mythological Inspired Algorithm)
+Thank you so much for your interest in contributing!. All types of contributions are encouraged and valued.
+Please read the [CODE of CONDUCT](CODE_OF_CONDUCT.md).
 
-Thank you for considering contributing to MIA! We welcome contributions from the open-source community to help improve and enhance this project. By contributing, you can make a positive impact on the development and functionality of MIA. This document outlines the guidelines for contributing to the project.
+## Setting Up Your Code
 
-## Ways to Contribute
+First, fork the repository to your own account and run the following command:
 
-There are several ways you can contribute to MIA:
+- Clone your repo: `git clone https://github.com/<your_name>/assign-to-me-action`
+- Change directory to the working dir: `cd assign-to-me-action`
+- Install the dependencies: `npm ci`
 
-1. **Bug Reports:** If you encounter any bugs or issues while using MIA, please report them by opening an issue on the GitHub repository. Provide detailed information about the problem, including steps to reproduce it, the expected behavior, and any relevant error messages.
+## Issue
 
-2. **Feature Requests:** If you have ideas for new features or improvements to existing features, feel free to submit a feature request through the GitHub issue tracker. Clearly describe the proposed feature and its expected benefits.
+If you see an open issue you would like to work on, just comment `/assign-to-me` and the action will assign the issue to you 😉
+Issues that are not assigned are assumed open, and to avoid conflicts, please assign yourself before beginning work on any issues.
 
-3. **Code Contributions:** You can contribute to MIA's development by submitting pull requests with code changes. Before starting work on a significant change, please open an issue to discuss it with the project maintainers and ensure it aligns with the project's goals and direction.
+> [!NOTE]
+> Assigned issues that have not had any activity in a week will be unassigned by the action.
 
-4. **Documentation:** Improvements to the project's documentation are always appreciated. If you find areas that require clarification, additional explanations, or better examples, you can submit pull requests to update the documentation accordingly.
+Next, use `git checkout -b <branch_name>` to create a new branch for your work. It's always a good idea to avoid committing changes directly to your `master` branch - this keeps it clean and avoid some weird issues.
 
-## Getting Started
+Branch names should be a brief description of your changes, such as `fix-typo` for fixing a typo.
 
-To contribute to MIA, follow these steps:
+> [!Important]
+> In order to make git commit messages easier to read and faster to reason about, we follow some guidelines on most commits to keep the format predictable. Check [Conventional Commits specification](https://www.conventionalcommits.org/) for more information about our guidelines.
 
-1. Fork the MIA repository to your GitHub account.
+## Testing
 
-2. Clone the forked repository to your local development environment.
+Before creating a PR, run this command: `npm run all`.
+It will format, lint, build and test everything.
 
-3. Create a new branch for your contribution, with a descriptive name that reflects the nature of your work.
+## Pull Request
 
-4. Implement your changes or additions, ensuring adherence to coding conventions and best practices.
+Push your changes to your forked repository by using `git push -u origin <branch_name>`.
 
-5. Write tests for your code changes to maintain the project's overall code quality.
+- `-u` tells `git` to set the upstream, it's the same as `--set-upstream`
+- `origin` tells `git` to push to your fork
+- `branch_name` tells `git` to push to a branch - this MUST match the name of the branch you created locally.
 
-6. Commit your changes and push them to your forked repository.
+Make sure to change the PR title in something like: `fix: correct typo` or `feat: add node latest`
 
-7. Submit a pull request from your branch to the main MIA repository. Provide a clear and concise description of the changes you made, along with any relevant information or context.
+## Pull Request Reviews
 
-8. Participate in the code review process, addressing any feedback or concerns raised by the project maintainers.
+All pull requests require a review before being merged. Most reviews will come from [@takanome_dev](https://github.com/TAKANOME-DEV).
 
-## Code Style and Guidelines
+If your pull request is approved, it will be merged.
 
-To maintain consistency and readability, we follow a set of code style and guidelines in the MIA project. Please ensure that your contributions adhere to these guidelines. Some key considerations include:
+If your pull request requires additional changes or information, we ask that you apply the changes promptly.
 
-- Use meaningful variable and function names that accurately represent their purpose.
+Contributions with outstanding change requests that receive no activity within a week will be closed as stale.
 
-- Follow the established coding conventions for the programming language used in the project.
+## License
 
-- Write clear and concise comments that help understand the code's intent and functionality.
-
-- Write modular and reusable code to promote maintainability and extensibility.
-
-- Properly document new features, functions, or significant changes in the project's documentation.
-
-## Code of Conduct
-
-We expect all contributors to adhere to the project's Code of Conduct. Please review the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file in the repository for details on our community standards and expected behavior.
-
-## Acknowledgements
-
-We value and appreciate the contributions from every member of the MIA community. Your time and efforts help shape and improve the project. Contributors will be acknowledged in the [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) file in the repository.
-
-Thank you for considering contributing to MIA! We look forward to your involvement and collaboration.
-
-For any questions or concerns, please reach out to [mail](mailto:jkjanarthanan007@gmail.com).
-
----
-Feel free to modify and adapt this CONTRIBUTING.md file to fit the specific guidelines and requirements of your MIA project. Provide clear instructions, guidelines, and expectations to ensure a smooth and productive contribution process.
-
-Happy contributing!
+By contributing to this project, you agree that your contributions will be licensed under its [MIT LICENSE](LICENSE).
