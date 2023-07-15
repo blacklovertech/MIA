@@ -1,4 +1,4 @@
-Closes: #XXX
+ClosesClosesClosesClosesClosesCloses: #XXX
 > *Be noted that XXX is the issue ID*
 
 ## What is the purpose of the change
