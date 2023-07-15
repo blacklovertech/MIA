@@ -77,6 +77,14 @@ For more information, resources, and examples, please refer to the [MIA Wiki](ht
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/blacklovertech"><img src="https://avatars.githubusercontent.com/u/93751501?v=4?s=100" width="100px;" alt="Janarthanan"/><br /><sub><b>Janarthanan</b></sub></a><br /><a href="https://github.com/blacklovertech/MIA/commits?author=blacklovertech" title="Code">💻</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://jakebolam.com"><img src="https://avatars.githubusercontent.com/u/3534236?v=4?s=100" width="100px;" alt="Jake Bolam"/><br /><sub><b>Jake Bolam</b></sub></a><br /><a href="#infra-jakebolam" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/blacklovertech/MIA/commits?author=jakebolam" title="Tests">⚠️</a> <a href="https://github.com/blacklovertech/MIA/commits?author=jakebolam" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
