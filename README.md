@@ -61,7 +61,7 @@ MIA is released under the [MIT License](LICENSE).
 
 Feel free to modify and extend MIA to suit your specific needs. We appreciate any feedback, bug reports, or feature requests.
 
-For any questions or support, please contact [email@example.com](mailto:email@example.com).
+For any questions or support, please contact [Mail](mailto:jkjanarthanan007@gmail.com).
 
 ## Acknowledgements
 
@@ -69,10 +69,6 @@ We would like to express our gratitude to the open-source community and the cont
 
 ## Additional Resources
 
-For more information, resources, and examples, please refer to the [MIA Wiki](https://github.com/yourusername/mia/wiki).
+For more information, resources, and examples, please refer to the [MIA Wiki](https://github.com/blacklovertech/mia/wiki).
 
 ---
-This is just a sample readme file, and you can modify and expand it based on your specific requirements. Make sure to include detailed instructions, setup guidelines, and any other relevant information to help users understand and utilize MIA effectively.
-
-Remember to replace "yourusername" and "email@example.com" with your actual GitHub username and contact information.
-
