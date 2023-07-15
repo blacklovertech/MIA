@@ -1,0 +1,2 @@
+# MIA
+Mythological Inspired Algorithm 
