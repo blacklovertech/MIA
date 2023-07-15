@@ -1,0 +1,23 @@
+name: Assign To Me Action
+
+on:
+
+  issue_comment:
+
+    types: [created]
+
+jobs:
+
+  assign:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Assign the user or unassign stale assignments
+
+        uses: takanome-dev/assign-issue-action@v2.0.0
+
+        with:
+
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
